@@ -1,0 +1,37 @@
+@import url(styles.css);
+
+.container__main {
+  position: relative;
+}
+
+.main__contact__socials {
+  display: none;
+}
+
+.main__contact__socials.expand {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--very-dark-grayish-blue);
+  padding: 1.375rem 2rem;
+  border-radius: 0 0 0.625rem 0.625rem;
+}
+
+.main__contact__links__icons,
+.icons {
+  display: flex;
+  align-items: center;
+}
+
+.main__contact__links__icons>p{
+    margin-right: 1.3125rem;
+}
+
+.facebook,
+.twitter{
+    margin-right: 1rem;
+}
