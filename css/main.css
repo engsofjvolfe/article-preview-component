@@ -1,0 +1,43 @@
+@import url(styles.css);
+
+main{
+    background-color: var(--white);
+    border-radius: 0 0 0.625rem 0.625rem;
+}
+
+.container__main{
+    padding: 2.25rem 2rem 1.25rem;
+}
+
+.main__text{
+    margin-bottom: 2rem;
+}
+
+.main__contact,
+.main__contact__img__name{
+    width: 100%;
+    display: flex;
+   
+}
+
+.main__contact{
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.main__contact__img__name>img{
+    width:40px ;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+
+.contact--name{
+    color: var( --very-dark-grayish-blue);
+}
+
+.date{
+    color: var(--grayish-light-blue);
+}
+
