@@ -117,7 +117,7 @@ h1 {
 
 p,
 .main__contact__name,
-.date {
+.date,.main__contact__links__icons>p {
   font-size: var(--p-fs);
   line-height: var(--p-lh);
   font-weight: var(--p-fw);
@@ -126,6 +126,11 @@ p,
 
 .main__contact__name {
   font-weight: var(--h1-fw);
+}
+
+.main__contact__links__icons>p{
+  color: var(--grayish-light-blue);
+  letter-spacing: 0.3125rem;
 }
 
 p {
