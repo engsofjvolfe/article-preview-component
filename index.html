@@ -1,58 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    º°
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-<head>º°
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
-  
-  <link rel="stylesheet" href="css/header.css">
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/contacts.css" />
+    <link rel="stylesheet" href="css/styles.css" />
 
-  <title>Frontend Mentor | Article preview component</title>
-</head>
+    <title>Frontend Mentor | Article preview component</title>
+  </head>
 
-<body>
-  <div class="container__body">
-    <header>
-      <div class="container__header">
-        <picture>
-          <source media="(min-width: 768px)" srcset="images/drawers.jpg">
-          <img src="images/drawers-mobile.jpg" alt="">
-        </picture>
-      </div>
-    </header>
-    <main>
-      <div class="container__main">
-        <div class="main__text">
-          <h1>Shift the overall look and feel by adding these wonderful touches to furniture in your home</h1>
-          <p>Ever been in a room and felt like something was missing? Perhaps it felt slightly bare and uninviting. I’ve
-            got some simple tips to help you make any room feel complete.</p>
+  <body>
+    <div class="container__body">
+      <header>
+        <div class="container__header">
+          <picture>
+            <source media="(min-width: 768px)" srcset="images/drawers.jpg" />
+            <img src="images/drawers-mobile.jpg" alt="" />
+          </picture>
         </div>
-        <div class="main__contact">
-          <div class="main__contact__img__name">
-            <img src="images/avatar-michelle.jpg" alt="avatar Michelle Appleton" class="main__contact__img">
-            <div class="main__contact__namedate">
-              <div class="main__contact__name contact--name">Michelle Appleton</div>
-              <time class="date"datetime="2020-06-28">28 Jun 2020</time>
-            </div>
+      </header>
+      <main>
+        <div class="container__main">
+          <div class="main__text">
+            <h1>
+              Shift the overall look and feel by adding these wonderful touches
+              to furniture in your home
+            </h1>
+            <p>
+              Ever been in a room and felt like something was missing? Perhaps
+              it felt slightly bare and uninviting. I’ve got some simple tips to
+              help you make any room feel complete.
+            </p>
           </div>
-          <div class="main__contact__share">
-            <img src="images/icon-share.svg" alt="icon share">
+          <div class="main__contact">
+            <div class="main__contact__img__name">
+              <img
+                src="images/avatar-michelle.jpg"
+                alt="avatar Michelle Appleton"
+                class="main__contact__img"
+              />
+              <div class="main__contact__namedate">
+                <div class="main__contact__name contact--name">
+                  Michelle Appleton
+                </div>
+                <time class="date" datetime="2020-06-28">28 Jun 2020</time>
+              </div>
+            </div>
+            <div class="main__contact__share">
+              <img class="main__contact--share" src="images/icon-share.svg" alt="icon share" />
+            </div>
           </div>
 
           <!-- LINKS -->
-          <div class="main__contact__links">
-
+          <div class="main__contact__socials">
+            <div class="main__contact__links__icons">
+              <p>share</p>
+              <div class="icons">
+                <div class="facebook">
+                  <a href="#"><img src="images/icon-facebook.svg" alt="" /></a>
+                </div>
+                <div class="twitter">
+                  <a href="#"><img src="images/icon-twitter.svg" alt="" /></a>
+                </div>
+                <div class="pinterest">
+                  <a href="#"><img src="images/icon-pinterest.svg" alt="" /></a>
+                </div>
+              </div>
+            </div>
+            <div class="links__share">
+              <img class="links--share" src="images/icon-share.svg" alt="icon share" />
+            </div>
           </div>
         </div>
-      </div>
-    </main>
-  </div>
-</body>
-
+      </main>
+    </div>
+  </body>
 </html>
