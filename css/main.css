@@ -3,9 +3,6 @@
 main{
     background-color: var(--white);
     border-radius: 0 0 0.625rem 0.625rem;
-}
-
-.container__main{
     padding: 2.25rem 2rem 1.25rem;
 }
 
@@ -25,10 +22,9 @@ main{
     align-items: center;
 }
 
-
-
 .main__contact__img__name>img{
     width:2.5rem ;
+    height: 2.5rem;
     border-radius: 50%;
     margin-right: 1rem;
 }
@@ -41,15 +37,16 @@ main{
     color: var(--grayish-light-blue);
 }
 
-
+.main__contact--share:hover,
+.links--share:hover{
+    background-color: var(--light-grayish-blue);
+    cursor: pointer;
+}
 
 
 @media screen and (min-width:48rem) {
     main{
         border-radius: 0 0.625rem 0.625rem 0;
-    }
-    
-    .container__main{
         padding: 2.390rem 2rem;
     }
     
