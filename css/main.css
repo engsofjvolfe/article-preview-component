@@ -37,11 +37,20 @@ main{
     color: var(--grayish-light-blue);
 }
 
+
 .main__contact--share:hover,
 .links--share:hover{
-    background-color: var(--light-grayish-blue);
     cursor: pointer;
+    opacity: 0.5;
+
 }
+
+.main__contact--share,
+.links--share {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  
 
 
 @media screen and (min-width:48rem) {
